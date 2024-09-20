@@ -1,10 +1,10 @@
-# Entrenamiento Docente
+# Formación de Instructoras e Instructores
 
-Este repositorio corresponde al Entrenamiento Docente (Instructor Training) dictado por [MetaDocencia](https://www.metadocencia.org/) 🍎 con [The Carpentries](https://carpentries.org/) en el marco del proyecto [Catalyst](https://catalystproject.cloud/).
+Este repositorio corresponde a la formación de instructoras e instructores (Instructor Training) dictado por [MetaDocencia](https://www.metadocencia.org/) 🍎 con [The Carpentries](https://carpentries.org/) en el marco del proyecto [Catalyst](https://catalystproject.cloud/).
 
 #
 
-Como parte de la etapa de entrenamiento ofrecida a las comunidades participantes del proyecto Catalyst, invitamos a los Campeones y Campeonas de Hub a sumarse a la Formación de Instructores de T[The Carpentries](https://carpentries.org/). Para las comunidades de habla hispana [MetaDocencia](https://www.metadocencia.org/) 🍎 estará llevando adelante una versión completamente en español.
+Como parte de la etapa de entrenamiento ofrecida a las comunidades participantes del proyecto Catalyst, invitamos a los Campeones y Campeonas de Hub a sumarse a la Formación de Instructoras e Instructores de [The Carpentries](https://carpentries.org/). Para las comunidades de habla hispana [MetaDocencia](https://www.metadocencia.org/) 🍎 estará llevando adelante una versión completamente en español.
 
 Esta formación introduce a quienes asisten a prácticas de enseñanzas basadas en evidencia, les enseña cómo crear ambientes positivos para quienes participan de sus talleres y les provee con oportunidades de practicar y desarrollar habilidades de enseñanza.
 
