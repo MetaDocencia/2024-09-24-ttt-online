@@ -67,7 +67,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 
-<p>La Capacitación de Instructores de Carpentries tiene los siguientes objetivos:</p>
+<p>El Entrenamiento para Docentes de The Carpentries tiene los siguientes objetivos:</p>
 
 * Introducirte a prácticas de enseñanza basadas en evidencia.
 * Enseñarte cómo crear un ambiente positivo para los estudiantes en tus talleres.
@@ -140,6 +140,8 @@ A su vez, como el taller es dictado por MetaDocencia, quienes participan deben h
 
 <h2 id="preparation" name="preparation">Cómo prepararse para el entrenamiento docente</h2>
 
+Antes de tu capacitación, visite nuestra página Preparación para la capacitación de instructores para obtener instrucciones completas. Un breve resumen de estas instrucciones es el siguiente:
+
 <p>
   Por favor, lee lo siguiente antes de comenzar el entrenamiento:
 </p>
@@ -161,17 +163,84 @@ A su vez, como el taller es dictado por MetaDocencia, quienes participan deben h
 
 
 
+<p>
 
-<h2 id="materials" name="materials">Materiales del entrenamiento</h2>
+  <h3>Certificación: El Proceso de Certificación de Personas Instructoras</h3> 
+
+Después del evento de capacitación, te pedimos que completes tres tareas de seguimiento para convertirte en Instructor certificado. Estos requisitos se detallan en nuestra <a href="{{ site.training_site }}/checkout.html">página de Instrucciones de Certificación</a> y se discutirán en nuestra capacitación.
+
+{% if online == "false" %}
+
+<h3>Qué Traer a un Evento Presencial</h3>
+Los participantes deben traer una laptop con conexión a Internet y un navegador funcional. Si lo tienes, un dispositivo para grabar audio y video (teléfonos móviles y laptops son adecuados) es útil, ya que vamos a grabarnos unos a otros enseñando en parejas o tríos. No tiene que ser de alta calidad, pero debe ser lo suficientemente bueno como para entender lo que alguien está diciendo. 
+
+{% endif %}
+
+<h3 id="accessibility">Accesibilidad</h3>
+
+Estamos comprometidos a hacer que esta
+capacitación sea accesible para todos.
+{% if online == "false" %}Organisers have checked that:
+
+<ul>
+  <li>The room is wheelchair / scooter accessible.</li>
+  <li>Accessible restrooms are available.</li>
+</ul>
+{% endif %}
+
+Los materiales se proporcionarán antes del evento.
+
+No requerimos que quienes participan proporcionen documentación de discapacidades ni revelen información personal innecesaria.
+Sin embargo, queremos ayudar a crear una experiencia inclusiva y accesible para todas las personas.
+Te animamos a compartir cualquier información que sea útil para hacer tu experiencia más accesible.
+Para solicitar una adaptación para esta capacitación, por favor completa el
+<a href="https://carpentries.typeform.com/to/B2OSYaD0">formulario de solicitud de adaptación</a>.
+Si tienes preguntas o necesitas asistencia con el formulario de adaptación, por favor <a href="mailto:team@carpentries.org">envíanos un correo electrónico</a>.
+
+
+
+
+<h3>Asistencia y Cancelación</h3> 
+
+Los participantes que falten más de 1 hora de la capacitación pueden ser señalados como ausentes. 
+La certificación no puede completarse sin asistencia completa a un evento de Entrenamiento Docente. 
+Si inesperadamente necesitas ausentarte más de 1 hora de tu evento, por favor contacta a tus instructores 
+(la información de contacto está abajo).
+Para eventos en los que la inscripción se realiza a través de The Carpentries vía Eventbrite, la cancelación puede realizarse en Eventbrite hasta el inicio del evento.
+Los cupos cancelados no pueden ser llenados después del plazo de registro de 1 semana para estos eventos, por lo que te pedimos que solo canceles si es absolutamente necesario.
+
+Más información sobre nuestra <a href="https://docs.carpentries.org/topic_folders/instructor_training/cancellations_and_makeups.html">política de cancelación y reposición</a> está disponible en el Manual de The Carpentries (The Carpentries Handbook).
+
+
+<h3 id="contact">Contacto</h3>
+<p>
+Por favor, escribe a
+{% if page.contact %}
+  {% for contact in page.contact %}
+    {% if forloop.last and page.contact.size > 1 %}
+      o
+    {% else %}
+      {% unless forloop.first %}
+      ,
+      {% endunless %}
+    {% endif %}
+    <a href='mailto:{{contact}}'>{{contact}}</a>
+  {% endfor %}
+{% else %}
+  to-be-announced
+{% endif %}
+for more information.
+</p>
+
+<hr/>
+
+<h3 id="materials" name="materials">Materiales del entrenamiento y cronograma</h3>
 
 <p>
   Por favor, mirá el <a href="{{ site.training_site }}/instructor/index.html#schedule">curriculum de entrenamiento docente (Instructor Training Curriculum)</a> para el material del curso.
 
 </p>
 
-
-
-<h3>Cronograma</h3>
 
 <!--
 NOTE: This space can be customized to reflect the unique schedule of your training. If you would like it to display,
@@ -306,81 +375,16 @@ TWO DAY SCHEDULE
 
 {% endif %}
 
-<h2 id="pre_workshop_survey">Encuestas</h2>
+<h3 id="pre_workshop_survey">Encuestas</h3>
 
 <p>
-  Antes del entrenamiento, por favor completá <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">nuestra encuesta pre-entrenamiento</a>.
+  Antes del taller, por favor llene nuestra <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">encuesta pre-entrenamiento</a>.
 </p>
 
 
 <p>
-
-  <h3>Certificación: El Proceso de Certificación de Personas Instructoras</h3> 
-
-Después del evento de capacitación, te pedimos que completes tres tareas de seguimiento para convertirte en Instructor certificado. Estos requisitos se detallan en nuestra <a href="{{ site.training_site }}/checkout.html">página de Instrucciones de Certificación</a> y se discutirán en nuestra capacitación.
-
-{% if online == "false" %}
-
-<h3>Qué Traer a un Evento Presencial</h3>
-Los participantes deben traer una laptop con conexión a Internet y un navegador funcional. Si lo tienes, un dispositivo para grabar audio y video (teléfonos móviles y laptops son adecuados) es útil, ya que vamos a grabarnos unos a otros enseñando en parejas o tríos. No tiene que ser de alta calidad, pero debe ser lo suficientemente bueno como para entender lo que alguien está diciendo. 
-
-{% endif %}
-
-<h3 id="accessibility">Accesibilidad</h3>
-
-Estamos comprometidos a hacer que esta
-capacitación sea accesible para todos.
-{% if online == "false" %}Organisers have checked that:
-
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-{% endif %}
-
-Los materiales se proporcionarán antes del evento.
-
-No requerimos que quienes participan proporcionen documentación de discapacidades ni revelen información personal innecesaria.
-Sin embargo, queremos ayudar a crear una experiencia inclusiva y accesible para todas las personas.
-Te animamos a compartir cualquier información que sea útil para hacer tu experiencia más accesible.
-Para solicitar una adaptación para esta capacitación, por favor completa el
-<a href="https://carpentries.typeform.com/to/B2OSYaD0">formulario de solicitud de adaptación</a>.
-Si tienes preguntas o necesitas asistencia con el formulario de adaptación, por favor <a href="mailto:team@carpentries.org">envíanos un correo electrónico</a>.
-
-
-
-
-<h3>Asistencia y Cancelación</h3> 
-
-Los participantes que falten más de 1 hora de la capacitación pueden ser señalados como ausentes. 
-La certificación no puede completarse sin asistencia completa a un evento de Entrenamiento Docente. 
-Si inesperadamente necesitas ausentarte más de 1 hora de tu evento, por favor contacta a tus instructores 
-(la información de contacto está abajo).
-Para eventos en los que la inscripción se realiza a través de The Carpentries vía Eventbrite, la cancelación puede realizarse en Eventbrite hasta el inicio del evento.
-Los cupos cancelados no pueden ser llenados después del plazo de registro de 1 semana para estos eventos, por lo que te pedimos que solo canceles si es absolutamente necesario.
-
-Más información sobre nuestra <a href="https://docs.carpentries.org/topic_folders/instructor_training/cancellations_and_makeups.html">política de cancelación y reposición</a> está disponible en el Manual de The Carpentries (The Carpentries Handbook).
-
-
-<h3 id="contact">Contacto</h3>
-<p>
-Por favor, escribe a
-{% if page.contact %}
-  {% for contact in page.contact %}
-    {% if forloop.last and page.contact.size > 1 %}
-      o
-    {% else %}
-      {% unless forloop.first %}
-      ,
-      {% endunless %}
-    {% endif %}
-    <a href='mailto:{{contact}}'>{{contact}}</a>
-  {% endfor %}
-{% else %}
-  to-be-announced
-{% endif %}
-for more information.
+  Luego del taller, por favor llene nuestra <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">encuesta post-entrenamiento</a>.
 </p>
 
-  Antes del entrenamiento, por favor completá <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">nuestra encuesta pre-entrenamiento</a>.
-</p>
+
+
