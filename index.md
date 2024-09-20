@@ -48,7 +48,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Información general</h2>
 
 <!--
   INTRODUCTION
@@ -58,45 +58,39 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 -->
 
 <p>
-<a href="{{ site.carpentries_site }}">The Carpentries</a> is a community of practice centered around teaching foundational
-  coding and data science skills to researchers worldwide. This Instructor Training
-  event is designed to prepare trainees to certify and participate as Carpentries
-  Instructors. However, much of our curriculum focuses on educational principles that
-  apply across a wide variety of contexts. We also welcome participants who do not plan
-  to certify but simply wish to become a better teacher.
+<a href="{{ site.carpentries_site }}">The Carpentries</a> es una comunidad de práctica centrada en la enseñanza de habilidades fundamentales
+  de programación y ciencia de datos a investigadores de todo el mundo. Este evento de Entrenamiento Docente
+  (Instructor Training) está diseñado para preparar a los participantes a fin de que se certifiquen 
+  y participen como Instructores de The Carpentries. Sin embargo, gran parte de nuestro plan de estudios 
+  se enfoca en principios educativos que se aplican a una amplia variedad de contextos. También damos 
+  la bienvenida a participantes que no planean certificarse, pero que simplemente desean mejorar como docentes.
 </p>
 
-<p>Carpentries Instructor Training has the following goals:</p>
 
-* Introduce you to evidence-based teaching practices.
-* Teach you how to create a positive environment for learners at your workshops.
-* Provide opportunities for you to practice and build your teaching skills.
-* Help you become integrated into the Carpentries community.
-* Prepare you to use these teaching skills in teaching Carpentries workshops.
+<p>La Capacitación de Instructores de Carpentries tiene los siguientes objetivos:</p>
 
-<p> Because we have only limited time, some things are beyond the scope of this training. We will
-not be learning:</p>
+* Introducirte a prácticas de enseñanza basadas en evidencia.
+* Enseñarte cómo crear un ambiente positivo para los estudiantes en tus talleres.
+* Ofrecerte oportunidades para practicar y desarrollar tus habilidades de enseñanza.
+* Ayudarte a integrarte en la comunidad de Carpentries.
+* Prepararte para usar estas habilidades de enseñanza en los talleres de Carpentries.
 
-* How to program in R or Python, use Git or SQL, or any of the other topics taught in  <a href="{{ site.dc_site }}">Data Carpentry</a>,
-  <a href="{{ site.lc_site }}">Library Carpentry</a>, or
-  <a href="{{ site.swc_site }}">Software Carpentry</a> workshops.
-* How to create your own lessons from scratch. However, this Instructor Training serves as a good precursor to [The Carpentries Lesson Developer Training]({{ site.lessondev_training_site }}).
+<p>Dado que tenemos un tiempo limitado, algunos temas quedan fuera del alcance de esta capacitación. No aprenderemos:</p>
+
+* Cómo programar en R o Python, usar Git o SQL, o cualquiera de los otros temas enseñados en los talleres de <a href="{{ site.dc_site }}">Data Carpentry</a>, <a href="{{ site.lc_site }}">Library Carpentry</a> o <a href="{{ site.swc_site }}">Software Carpentry</a>.
+* Cómo crear tus propias lecciones desde cero. Sin embargo, este Entrenamiento Docente (Instructor Training) es un buen precursor para [The Carpentries Lesson Developer Training]({{ site.lessondev_training_site }}).
 
 
-<p>
-Instructor Training events are hands-on throughout: short lessons alternate
-with individual and group practical exercises, including practice teaching sessions.
-This Instructor Training event is the first step towards certification as a
-Carpentries Instructor. For more details on the other 3 steps, see the <a href="{{ site.training_site }}/checkout.html">Checkout Instructions</a> page.
-For more information, see our <a href="{{ site.training_site }}">Instructor Training Curriculum</a>.
-</p>
+<p> Los eventos de Entrenamiento Docente son completamente prácticos: lecciones breves se alternan 
+con ejercicios prácticos individuales y grupales, incluidas sesiones de práctica de enseñanza. Este evento
+de Entrenamiento Docente es el primer paso hacia la certificación como persona instructora de The Carpentries. Para más 
+detalles sobre los otros 3 pasos, consulta la página de <a href="{{ site.training_site }}/checkout.html">Instrucciones de Salida (Checkout Instructions)</a>. 
+Para más información, consulta nuestro <a href="{{ site.training_site }}">Currículo de Entrenamiento Docente (Instructor Training Curriculum)</a>. </p> 
 
-<h3>Code of Conduct</h3>
+<h3>Pautas de Convivencia</h3>
 
-All participants are required to abide by The Carpentries <a href="{{
-site.swc_site }}/conduct/">Code of Conduct</a>.
-
-
+Todos los y las participantes deben cumplir con el <a href="{{ site.swc_site }}/conduct/">Código de Conducta</a> de The Carpentries.
+A su vez, como el taller es dictado por MetaDocencia, quienes participan deben hacerlo bajo las <a href="https://www.metadocencia.org/pdc/">Pautas de Convivencia</a> de la organización. 
 
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
 {% if page.address == "online" %}
@@ -114,7 +108,7 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
   -->
-<h3 id="where">Where</h3>
+<h3 id="where">Dónde</h3>
 
 
 {% if online == "false" %}
@@ -138,15 +132,15 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 </p>
 {% elsif online == "true_private" %}
 <p id="venue">
-  This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  Este entrenamiento se realizará en línea.
+  Las instructoras te proporcionarán la información que necesitas para conectarte a esta reunión.
 </p>
 {% endif %}
 
 <h4 id="accessibility">Accessibility</h4>
 
-We are committed to making this training
-accessible to everybody.
+Estamos comprometidos a hacer que esta
+capacitación sea accesible para todos.
 {% if online == "false" %}Organisers have checked that:
 
 <ul>
@@ -155,63 +149,59 @@ accessible to everybody.
 </ul>
 {% endif %}
 
-Materials will be provided in advance of the event.
+Los materiales se proporcionarán antes del evento.
 
-We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
-However, we do want to help create an inclusive, accessible experience for all participants.
-We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-To request an accommodation for this training, please fill out the
-<a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
-If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
+No requerimos que quienes participan proporcionen documentación de discapacidades ni revelen información personal innecesaria.
+Sin embargo, queremos ayudar a crear una experiencia inclusiva y accesible para todas las personas.
+Te animamos a compartir cualquier información que sea útil para hacer tu experiencia más accesible.
+Para solicitar una adaptación para esta capacitación, por favor completa el
+<a href="https://carpentries.typeform.com/to/B2OSYaD0">formulario de solicitud de adaptación</a>.
+Si tienes preguntas o necesitas asistencia con el formulario de adaptación, por favor <a href="mailto:team@carpentries.org">envíanos un correo electrónico</a>.
 
-<h3>How to Prepare for Instructor Training</h3>
+<h3>Cómo Prepararse para el Entrenamiento Docente</h3>
 
-Before your training, please visit our Preparing for Instructor Training page for complete instructions. A brief summary of these instructions is as follows
-<ol>
-  <li>Complete our Pre-training Survey. You will receive a custom link for your event when you receive your connection information.</li>
-  <li>Select a lesson to use for teaching practice sessions and prepare a 3 minute segment, spending no more than 20-30 minutes to prepare.</li>
-  <li>Please read the following:</li>
-    <ul>
-      <li><a href="https://carpentries.github.io/instructor-training/files/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
-      <li><a href="https://carpentries.org/files/reports/AnnualReport2023.pdf">The Carpentries 2023 Annual Report</a></li>
-    </ul>
-</ol>
+Antes de la capacitación, por favor visita nuestra página de Ppeparación para la Capacitación de Instructores para obtener las instrucciones completas. Un resumen breve de estas instrucciones es el siguiente:
 
-<h3> Checkout: The Instructor Certification Process</h3>
-After the training event, we ask you to complete three follow-up tasks to become a certified Instructor. These requirements are detailed on our
-  <a href="{{ site.training_site }}/checkout.html">Checkout Instructions</a> page and will be discussed at our training.
+<ol> 
+  <li>Completa nuestra Encuesta Pre-entrenamiento. Recibirás un enlace personalizado para tu evento cuando recibas la información de conexión.</li>
+  <li>Selecciona una lección para usar en las sesiones de práctica de enseñanza y prepara un segmento de 3 minutos, dedicando no más de 20-30 minutos en la preparación.</li> 
+  <li>Por favor lee los siguientes documentos:</li> 
+  <ul> 
+    <li><a href="https://carpentries.github.io/instructor-training/files/papers/science-of-learning-2015.pdf">La Ciencia del Aprendizaje</a></li> 
+    <li><a href="https://carpentries.org/files/reports/AnnualReport2023.pdf">Informe Anual de Carpentries 2023</a></li> 
+  </ul> 
+</ol> 
+
+<h3>Certificación: El Proceso de Certificación de Personas Instructoras</h3> 
+
+Después del evento de capacitación, te pedimos que completes tres tareas de seguimiento para convertirte en Instructor certificado. Estos requisitos se detallan en nuestra <a href="{{ site.training_site }}/checkout.html">página de Instrucciones de Certificación</a> y se discutirán en nuestra capacitación.
 
 {% if online == "false" %}
-<h3>What to Bring to an In-Person Event</h3>
 
-Participants should bring a laptop that is Internet connected and has a
-functioning browser. If you have it, a device for recording audio and video
-(mobile phones and laptops are OK) is useful as we
-are going to record one another teaching in pairs or threes. It does not have
-to be high-quality, but it should be good enough that you can understand what
-someone is saying.
+<h3>Qué Traer a un Evento Presencial</h3>
+Los participantes deben traer una laptop con conexión a Internet y un navegador funcional. Si lo tienes, un dispositivo para grabar audio y video (teléfonos móviles y laptops son adecuados) es útil, ya que vamos a grabarnos unos a otros enseñando en parejas o tríos. No tiene que ser de alta calidad, pero debe ser lo suficientemente bueno como para entender lo que alguien está diciendo. 
+
 {% endif %}
 
-<h3>Attendance and Cancellation</h3>
-Trainees who miss more than 1 hour of the training may be marked absent.
-Instructor certification cannot be completed without full attendance at
-an Instructor Training event. If you unexpectedly need to miss more than
-1 hour of your event, please contact your Trainers (contact info below).
+<h3>Asistencia y Cancelación</h3> 
 
-For events in which registration occurs through The Carpentries via Eventbrite,
-cancellation may be performed in Eventbrite up to the start of the event.
-Canceled seats cannot be filled after the 1 week registration deadline for these events,
-so we ask that you only cancel if absolutely necessary.
+Los participantes que falten más de 1 hora de la capacitación pueden ser señalados como ausentes. 
+La certificación no puede completarse sin asistencia completa a un evento de Entrenamiento Docente. 
+Si inesperadamente necesitas ausentarte más de 1 hora de tu evento, por favor contacta a tus instructores 
+(la información de contacto está abajo).
+Para eventos en los que la inscripción se realiza a través de The Carpentries vía Eventbrite, la cancelación puede realizarse en Eventbrite hasta el inicio del evento.
+Los cupos cancelados no pueden ser llenados después del plazo de registro de 1 semana para estos eventos, por lo que te pedimos que solo canceles si es absolutamente necesario.
 
-More information on our <a href="https://docs.carpentries.org/topic_folders/instructor_training/cancellations_and_makeups.html">cancellation and makeup policy</a> is available in The Carpentries Handbook.
+Más información sobre nuestra <a href="https://docs.carpentries.org/topic_folders/instructor_training/cancellations_and_makeups.html">política de cancelación y reposición</a> está disponible en el Manual de The Carpentries (The Carpentries Handbook).
 
-<h3 id="contact">Contact</h3>
+
+<h3 id="contact">Contacto</h3>
 <p>
-Please email
+Por favor, escribe a
 {% if page.contact %}
   {% for contact in page.contact %}
     {% if forloop.last and page.contact.size > 1 %}
-      or
+      o
     {% else %}
       {% unless forloop.first %}
       ,
@@ -230,31 +220,32 @@ for more information.
 <h2 id="preparation" name="preparation">Preparation</h2>
 
 <p>
-  Please read the following before the training begins:
+  Por favor, lee lo siguiente antes de comenzar el entrenamiento:
 </p>
 <ol>
   <li><a href="https://carpentries.github.io/instructor-training/files/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
   <li><a href="https://carpentries.org/files/reports/AnnualReport2023.pdf">The Carpentries 2023 Annual Report</a></li>
 </ol>
 <p>
-  Please also read through <em>one</em> episode of one of The Carpentries lessons below
-  carefully, so that you can do some exercises based on it on the
-  first day of the class.  An episode is one page of a lesson.
+  Por favor, también lee con detalle <em>un episodio</em> de una de las lecciones de The Carpentries  
+  detalladas debajo, para que puedas hacer algunos ejercicios basándote en esta durante tu primer
+  día de clase. Un episodio es una página de una lección. 
 </p>
 
   <ul>
-  <li><a href="{{ site.dc_site }}/lessons">Data Carpentry Lessons</a></li>
-  <li><a href="{{ site.lc_site }}/lessons">Library Carpentry Lessons</a></li>
-  <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
+  <li><a href="{{ site.dc_site }}/lessons">Lecciones de Data Carpentry</a></li>
+  <li><a href="{{ site.lc_site }}/lessons">Lecciones de Library Carpentry</a></li>
+  <li><a href="{{ site.swc_site }}/lessons">Lecciones de Software Carpentry</a></li>
   </ul>
 
 
 <hr/>
 
-<h2 id="materials" name="materials">Training Materials and Schedule</h2>
+<h2 id="materials" name="materials">Materiales del entrenamiento y cronograma</h2>
 
 <p>
-  Please see <a href="{{ site.training_site }}/instructor/index.html#schedule">the Instructor Training Curriculum</a> for course material and sample schedule for a 2-day event.
+  Por favor, mirá el<a href="{{ site.training_site }}/instructor/index.html#schedule">curriculum de entrenamiento docente (Instructor Training Curriculum)</a> para el material del curso y un cronograma de ejemplo para un evento de 2 días.
+
 </p>
 
 
