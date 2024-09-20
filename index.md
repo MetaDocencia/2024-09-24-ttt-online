@@ -59,7 +59,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p>
 <a href="{{ site.carpentries_site }}">The Carpentries</a> es una comunidad de práctica centrada en la enseñanza de habilidades fundamentales
-  de programación y ciencia de datos a investigadores de todo el mundo. Este evento de Entrenamiento Docente
+  de programación y ciencia de datos a investigadores de todo el mundo. Este evento de Formación de Instructoras e Instructores
   (Instructor Training) está diseñado para preparar a los participantes a fin de que se certifiquen 
   y participen como Instructores de The Carpentries. Sin embargo, gran parte de nuestro plan de estudios 
   se enfoca en principios educativos que se aplican a una amplia variedad de contextos. También damos 
@@ -78,14 +78,14 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>Dado que tenemos un tiempo limitado, algunos temas quedan fuera del alcance de esta capacitación. No aprenderemos:</p>
 
 * Cómo programar en R o Python, usar Git o SQL, o cualquiera de los otros temas enseñados en los talleres de <a href="{{ site.dc_site }}">Data Carpentry</a>, <a href="{{ site.lc_site }}">Library Carpentry</a> o <a href="{{ site.swc_site }}">Software Carpentry</a>.
-* Cómo crear tus propias lecciones desde cero. Sin embargo, este Entrenamiento Docente (Instructor Training) es un buen precursor para [The Carpentries Lesson Developer Training]({{ site.lessondev_training_site }}).
+* Cómo crear tus propias lecciones desde cero. Sin embargo, este Formación de Instructoras e Instructores (Instructor Training) es un buen precursor para [The Carpentries Lesson Developer Training]({{ site.lessondev_training_site }}).
 
 
-<p> Los eventos de Entrenamiento Docente son completamente prácticos: lecciones breves se alternan 
+<p> Los eventos de Formación de Instructoras e Instructores son completamente prácticos: lecciones breves se alternan 
 con ejercicios prácticos individuales y grupales, incluidas sesiones de práctica de enseñanza. Este evento
-de Entrenamiento Docente es el primer paso hacia la certificación como persona instructora de The Carpentries. Para más 
+de Formación de Instructoras e Instructores es el primer paso hacia la certificación como persona instructora de The Carpentries. Para más 
 detalles sobre los otros 3 pasos, consulta la página de <a href="{{ site.training_site }}/checkout.html">Instrucciones de Salida (Checkout Instructions)</a>. 
-Para más información, consulta nuestro <a href="{{ site.training_site }}">Currículo de Entrenamiento Docente (Instructor Training Curriculum)</a>. </p> 
+Para más información, consulta nuestro <a href="{{ site.training_site }}">Currículo de Formación de Instructoras e Instructores (Instructor Training Curriculum)</a>. </p> 
 
 <h3>Pautas de Convivencia</h3>
 
@@ -138,7 +138,7 @@ A su vez, como el taller es dictado por MetaDocencia, quienes participan deben h
 {% endif %}
 
 
-<h2 id="preparation" name="preparation">Cómo prepararse para el entrenamiento docente</h2>
+<h2 id="preparation" name="preparation">Cómo prepararse para el Formación de Instructoras e Instructores</h2>
 
 Antes de tu capacitación, visite nuestra página Preparación para la capacitación de instructores para obtener instrucciones completas. Un breve resumen de estas instrucciones es el siguiente:
 
@@ -203,7 +203,7 @@ Si tienes preguntas o necesitas asistencia con el formulario de adaptación, por
 <h3>Asistencia y Cancelación</h3> 
 
 Los participantes que falten más de 1 hora de la capacitación pueden ser señalados como ausentes. 
-La certificación no puede completarse sin asistencia completa a un evento de Entrenamiento Docente. 
+La certificación no puede completarse sin asistencia completa a un evento de Formación de Instructoras e Instructores. 
 Si inesperadamente necesitas ausentarte más de 1 hora de tu evento, por favor contacta a tus instructores 
 (la información de contacto está abajo).
 Para eventos en los que la inscripción se realiza a través de The Carpentries vía Eventbrite, la cancelación puede realizarse en Eventbrite hasta el inicio del evento.
@@ -237,7 +237,7 @@ for more information.
 <h3 id="materials" name="materials">Materiales del entrenamiento y cronograma</h3>
 
 <p>
-  Por favor, mirá el <a href="{{ site.training_site }}/instructor/index.html#schedule">curriculum de entrenamiento docente (Instructor Training Curriculum)</a> para el material del curso.
+  Por favor, mirá el <a href="{{ site.training_site }}/instructor/index.html#schedule">curriculum de Formación de Instructoras e Instructores (Instructor Training Curriculum)</a> para el material del curso.
 
 </p>
 
@@ -378,12 +378,12 @@ TWO DAY SCHEDULE
 <h3 id="pre_workshop_survey">Encuestas</h3>
 
 <p>
-  Antes del taller, por favor llene nuestra <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">encuesta pre-entrenamiento</a>.
+  Antes del taller, por favor llene nuestra <a href="https://tiny.cc/ttt-Encuesta-pre">encuesta pre-entrenamiento</a>.
 </p>
 
 
 <p>
-  Luego del taller, por favor llene nuestra <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">encuesta post-entrenamiento</a>.
+  Luego del taller, por favor llene nuestra <a href="https://tiny.cc/ttt-Encuesta-pre">encuesta post-entrenamiento</a>.
 </p>
 
 
