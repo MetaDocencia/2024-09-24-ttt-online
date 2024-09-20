@@ -384,18 +384,18 @@ FOUR DAY SCHEDULE
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  Usaremos este Etherpad para conversar, tomar notas y compartir URLs y fragmentos de código.
 </p>
 
 {% endif %}
 
-<h2 id="pre_workshop_survey">Surveys</h2>
+<h2 id="pre_workshop_survey">Encuestas</h2>
 
 <p>
-  Before attending the training, please fill out <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
+  Antes del entrenamiento, por favor completá <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">nuestra encuesta pre-entrenamiento</a>.
 </p>
 
 
 <p>
-  After the training, please fill out <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
+  Antes del entrenamiento, por favor completá <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">nuestra encuesta pre-entrenamiento</a>.
 </p>
