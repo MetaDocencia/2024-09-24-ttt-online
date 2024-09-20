@@ -108,7 +108,7 @@ A su vez, como el taller es dictado por MetaDocencia, quienes participan deben h
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
   -->
-<h3 id="where">Dónde</h3>
+<h3 id="where">Lugar</h3>
 
 
 {% if online == "false" %}
@@ -137,28 +137,6 @@ A su vez, como el taller es dictado por MetaDocencia, quienes participan deben h
 </p>
 {% endif %}
 
-<h4 id="accessibility">Accesibilidad</h4>
-
-Estamos comprometidos a hacer que esta
-capacitación sea accesible para todos.
-{% if online == "false" %}Organisers have checked that:
-
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-{% endif %}
-
-Los materiales se proporcionarán antes del evento.
-
-No requerimos que quienes participan proporcionen documentación de discapacidades ni revelen información personal innecesaria.
-Sin embargo, queremos ayudar a crear una experiencia inclusiva y accesible para todas las personas.
-Te animamos a compartir cualquier información que sea útil para hacer tu experiencia más accesible.
-Para solicitar una adaptación para esta capacitación, por favor completa el
-<a href="https://carpentries.typeform.com/to/B2OSYaD0">formulario de solicitud de adaptación</a>.
-Si tienes preguntas o necesitas asistencia con el formulario de adaptación, por favor <a href="mailto:team@carpentries.org">envíanos un correo electrónico</a>.
-
-<hr/>
 
 <h2 id="preparation" name="preparation">Cómo prepararse para el entrenamiento docente</h2>
 
@@ -182,17 +160,18 @@ Si tienes preguntas o necesitas asistencia con el formulario de adaptación, por
   </ul>
 
 
-<hr/>
 
-<h2 id="materials" name="materials">Materiales del entrenamiento y cronograma</h2>
+
+<h2 id="materials" name="materials">Materiales del entrenamiento</h2>
 
 <p>
-  Por favor, mirá el <a href="{{ site.training_site }}/instructor/index.html#schedule">curriculum de entrenamiento docente (Instructor Training Curriculum)</a> para el material del curso y un cronograma de ejemplo para un evento de 2 días.
+  Por favor, mirá el <a href="{{ site.training_site }}/instructor/index.html#schedule">curriculum de entrenamiento docente (Instructor Training Curriculum)</a> para el material del curso.
 
 </p>
 
 
-<hr/>
+
+<h3>Cronograma</h3>
 
 <!--
 NOTE: This space can be customized to reflect the unique schedule of your training. If you would like it to display,
@@ -247,64 +226,59 @@ TWO DAY SCHEDULE
 -->
 
 
-<!--
-FOUR DAY SCHEDULE
---->
-<!--
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Día 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Welcome </td> </tr>
-      <tr> <td>09:30</td> <td>Building Skill with Practice </td> </tr>
-      <tr> <td>10:30</td> <td>Break </td> </tr>
-      <tr> <td>10:45</td> <td>Expertise and Instruction </td> </tr>
-      <tr> <td>11:30</td> <td>Memory and Cognitive Load </td> </tr>
-      <tr> <td>12:15</td> <td>Building Skill with Feedback </td> </tr>
-      <tr> <td>12:35</td> <td>Finish day 1 </td> </tr>
+      <tr> <td>14:00</td> <td>Bienvenidos </td> </tr>
+      <tr> <td>14:30</td> <td>Construir habilidad con práctica </td> </tr>
+      <tr> <td>15:30</td> <td>Descanso </td> </tr>
+      <tr> <td>15:45</td> <td>Experiencia e instrucción </td> </tr>
+      <tr> <td>16:30</td> <td>Memoria y carga cognitiva </td> </tr>
+      <tr> <td>17:15</td> <td>Contruir habilidad con feedback </td> </tr>
+      <tr> <td>17:35</td> <td>Final del día 1 </td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Día 2</h3>
     <table class="table table-striped">
-      <tr> <td>13:35</td> <td>Motivation and Demotivation </td> </tr>
-      <tr> <td>14:35</td> <td>Equity, Inclusion, and Accessibility </td> </tr>
-      <tr> <td>15:15</td> <td>Break </td> </tr>
-      <tr> <td>15:30</td> <td>Teaching Is a Skill </td> </tr>
-      <tr> <td>16:30</td> <td>Wrap-up and Homework </td> </tr>
-      <tr> <td>16:50</td> <td>Finish day 2</td> </tr>
+      <tr> <td>14:00</td> <td>Motivación y demotivación </td> </tr>
+      <tr> <td>15:00</td> <td>Equidad, inclusión y accesibilidad </td> </tr>
+      <tr> <td>15:40</td> <td>Descanso </td> </tr>
+      <tr> <td>15:55</td> <td>Enseñar es una habilidad </td> </tr>
+      <tr> <td>17:15</td> <td>Conclusión y tarea para la próxima </td> </tr>
+      <tr> <td>17:30</td> <td>Final del día 2</td> </tr>
     </table>
   </div>
 </div>
 <div class="row">  
   <div class="col-md-6">
-    <h3>Day 3</h3>
+    <h3>Día 3</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-      <tr> <td>09:10</td> <td>Getting Started on Instructor Certification </td> </tr>
-      <tr> <td>09:40</td> <td>The Carpentries: How We Operate </td> </tr>
-      <tr> <td>10:25</td> <td>Break </td> </tr>
-      <tr> <td>10:40</td> <td>Live Coding Is a Skill </td> </tr>
-      <tr> <td>11:45</td> <td>Preparing to Teach </td> </tr>
-      <tr> <td>12:30</td> <td>Finish day 3 </td> </tr>
+      <tr> <td>09:00</td> <td>Bienvenidos de nuevo </td> </tr>
+      <tr> <td>09:10</td> <td>Primeros pasos para la certificación </td> </tr>
+      <tr> <td>09:40</td> <td>The carpentries: cómo operamos </td> </tr>
+      <tr> <td>10:25</td> <td>Descanso </td> </tr>
+      <tr> <td>10:40</td> <td>La programación en vivo es una habilidad </td> </tr>
+      <tr> <td>11:45</td> <td>Preparándonos para enseñar </td> </tr>
+      <tr> <td>12:30</td> <td>Final del día 3 </td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 4</h3>
+    <h3>Día 4</h3>
     <table class="table table-striped">
-      <tr> <td>13:30</td> <td>More Practice Live Coding </td> </tr>
-      <tr> <td>14:15</td> <td>Working with Your Team</td> </tr>
-      <tr> <td>15:25</td> <td>Break </td> </tr>
-      <tr> <td>15:40</td> <td>Launches and Landings </td> </tr>
-      <tr> <td>16:20</td> <td>Putting it Together </td> </tr>
-      <tr> <td>16:40</td> <td>Wraping Up </td> </tr>
-      <tr> <td>16:50</td> <td>Post-Training Survey </td> </tr>
-      <tr> <td>17:05</td> <td>Finish </td> </tr>
+      <tr> <td>14:00</td> <td>Más práctica de programación en vivo </td> </tr>
+      <tr> <td>14:45</td> <td>Trabajando con tu equipo</td> </tr>
+      <tr> <td>15:55</td> <td>Descanso </td> </tr>
+      <tr> <td>16:10</td> <td>Introducciones y conclusiones </td> </tr>
+      <tr> <td>16:50</td> <td>Combinamos todo </td> </tr>
+      <tr> <td>17:10</td> <td>Concluimos </td> </tr>
+      <tr> <td>17:20</td> <td>Encuesta post-entrenamiento </td> </tr>
+      <tr> <td>17:25</td> <td>Final del taller </td> </tr>
     </table>
   </div>
 </div>
 
--->
 
 
 <!--
@@ -322,7 +296,7 @@ FOUR DAY SCHEDULE
   e.g., '2015-06-10-esu'.
 -->
 {% if page.etherpad %}
-<hr/>
+
 
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
@@ -351,6 +325,30 @@ Después del evento de capacitación, te pedimos que completes tres tareas de se
 Los participantes deben traer una laptop con conexión a Internet y un navegador funcional. Si lo tienes, un dispositivo para grabar audio y video (teléfonos móviles y laptops son adecuados) es útil, ya que vamos a grabarnos unos a otros enseñando en parejas o tríos. No tiene que ser de alta calidad, pero debe ser lo suficientemente bueno como para entender lo que alguien está diciendo. 
 
 {% endif %}
+
+<h3 id="accessibility">Accesibilidad</h3>
+
+Estamos comprometidos a hacer que esta
+capacitación sea accesible para todos.
+{% if online == "false" %}Organisers have checked that:
+
+<ul>
+  <li>The room is wheelchair / scooter accessible.</li>
+  <li>Accessible restrooms are available.</li>
+</ul>
+{% endif %}
+
+Los materiales se proporcionarán antes del evento.
+
+No requerimos que quienes participan proporcionen documentación de discapacidades ni revelen información personal innecesaria.
+Sin embargo, queremos ayudar a crear una experiencia inclusiva y accesible para todas las personas.
+Te animamos a compartir cualquier información que sea útil para hacer tu experiencia más accesible.
+Para solicitar una adaptación para esta capacitación, por favor completa el
+<a href="https://carpentries.typeform.com/to/B2OSYaD0">formulario de solicitud de adaptación</a>.
+Si tienes preguntas o necesitas asistencia con el formulario de adaptación, por favor <a href="mailto:team@carpentries.org">envíanos un correo electrónico</a>.
+
+
+
 
 <h3>Asistencia y Cancelación</h3> 
 
