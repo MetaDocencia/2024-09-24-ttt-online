@@ -151,7 +151,7 @@ Antes de tu capacitación, visite nuestra página Preparación para la capacitac
 </ol>
 <p>
   Por favor, también lee con detalle <em>un episodio</em> de una de las lecciones de The Carpentries  
-  detalladas debajo, para que puedas hacer algunos ejercicios basándote en esta durante tu primer
+  detalladas debajo, para que puedas hacer algunos ejercicios basándote en el espisodio elegido durante tu primer
   día de clase. Un episodio es una página de una lección. 
 </p>
 
