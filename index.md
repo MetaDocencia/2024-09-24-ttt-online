@@ -78,7 +78,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>Dado que tenemos un tiempo limitado, algunos temas quedan fuera del alcance de esta capacitación. No aprenderemos:</p>
 
 * Cómo programar en R o Python, usar Git o SQL, o cualquiera de los otros temas enseñados en los talleres de <a href="{{ site.dc_site }}">Data Carpentry</a>, <a href="{{ site.lc_site }}">Library Carpentry</a> o <a href="{{ site.swc_site }}">Software Carpentry</a>.
-* Cómo crear tus propias lecciones desde cero. Sin embargo, este Formación de Instructoras e Instructores (Instructor Training) es un buen precursor para [The Carpentries Lesson Developer Training]({{ site.lessondev_training_site }}).
+* Cómo crear tus propias lecciones desde cero. Sin embargo, esta Formación de Instructoras e Instructores (Instructor Training) es buena precursora para [The Carpentries Lesson Developer Training]({{ site.lessondev_training_site }}).
 
 
 <p> Los eventos de Formación de Instructoras e Instructores son completamente prácticos: lecciones breves se alternan 
@@ -138,7 +138,7 @@ A su vez, como el taller es dictado por MetaDocencia, quienes participan deben h
 {% endif %}
 
 
-<h2 id="preparation" name="preparation">Cómo prepararse para el Formación de Instructoras e Instructores</h2>
+<h2 id="preparation" name="preparation">Cómo prepararse para la Formación de Instructoras e Instructores</h2>
 
 Antes de tu capacitación, visite nuestra página Preparación para la capacitación de instructores para obtener instrucciones completas. Un breve resumen de estas instrucciones es el siguiente:
 
