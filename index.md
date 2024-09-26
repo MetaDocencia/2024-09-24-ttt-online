@@ -324,13 +324,13 @@ TWO DAY SCHEDULE
   <div class="col-md-6">
     <h3>Día 3</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Bienvenidos de nuevo </td> </tr>
-      <tr> <td>09:10</td> <td>Primeros pasos para la certificación </td> </tr>
-      <tr> <td>09:40</td> <td>The carpentries: cómo operamos </td> </tr>
-      <tr> <td>10:25</td> <td>Descanso </td> </tr>
-      <tr> <td>10:40</td> <td>La programación en vivo es una habilidad </td> </tr>
-      <tr> <td>11:45</td> <td>Preparándonos para enseñar </td> </tr>
-      <tr> <td>12:30</td> <td>Final del día 3 </td> </tr>
+      <tr> <td>14:00</td> <td>Bienvenidos de nuevo </td> </tr>
+      <tr> <td>14:10</td> <td>Primeros pasos para la certificación </td> </tr>
+      <tr> <td>14:40</td> <td>The carpentries: cómo operamos </td> </tr>
+      <tr> <td>15:25</td> <td>Descanso </td> </tr>
+      <tr> <td>15:40</td> <td>La programación en vivo es una habilidad </td> </tr>
+      <tr> <td>16:45</td> <td>Preparándonos para enseñar </td> </tr>
+      <tr> <td>17:30</td> <td>Final del día 3 </td> </tr>
     </table>
   </div>
   <div class="col-md-6">
